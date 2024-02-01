@@ -10,16 +10,11 @@
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
     "*.dart": "$(capture).g.dart, $(capture).freezed.dart",
-    "pubspec.yaml": "pubspec.lock, pubspec_overrides.yaml",
+    "pubspec.yaml": "pubspec.lock, pubspec_overrides.yaml"
   },
-  // テンプレート使用してリポジトリを作った際に、copilotは無効化されます
   "github.copilot.enable": {
-    "*": false,
-    "markdown": true,
-    "dart": true,
-    "json": true,
-    "yaml": true
+    "*": false
   },
-  "github.copilot.editor.enableCodeActions": true,
-  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.editor.enableCodeActions": false,
+  "github.copilot.editor.enableAutoCompletions": false
 }
